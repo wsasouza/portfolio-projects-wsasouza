@@ -1,9 +1,9 @@
 :root {
-  --customColor: #FF4600;
-  --purple: #7159C1;
+  --customColor: #FF4600;  
   --orange: #FF4600;
-  --blue: #0044FF;
-  --cyan: #03FFC7;
+  --blue: #4169E1;
+  --purple: #8A2BE2;
+  --red: #FF0000;
 }
 
 *,
@@ -69,6 +69,7 @@ li {
   background: rgb(0, 0, 19);
   z-index: 1;
   overflow: hidden;
+  transition: 0.5s;
 }
 
 .header img {
@@ -78,8 +79,8 @@ li {
   bottom: 0;
   width: 100rem;
   border-radius: 0.7rem;
-  filter: blur(1px);
-  z-index: -1;
+  filter: blur(1px);  
+  z-index: -1; 
 }
 
 @media only screen and (max-width: 996px) {
@@ -117,8 +118,9 @@ li {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--customColor);
+  background-color: var(--customColor);  
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: 2s;
   z-index: 999;
 }
 
@@ -137,8 +139,7 @@ li {
   color: #fff;
 }
 
-.logo h1 span {
-  font-weight: bold;
+.logo h1 span {  
   color: var(--customColor);
 }
 
@@ -160,7 +161,7 @@ li {
 
 .nav-link:hover {
   border-radius: 0.7rem;
-  background-color: var(--customColor);
+  background-color: var(--customColor);  
 }
 
 .top-nav {
@@ -278,12 +279,14 @@ li {
   padding: 0.8rem 2.5rem;
   border: 1px solid var(--customColor);
   background-color: var(--customColor);
+  border-radius: 0.7rem;
   color: #fff;
   margin-top: 5rem;
 }
 
 .hero a:hover {
   background-color: transparent;
+  transition: 0.5s;
 }
 
 @media only screen and (max-width: 996px) {
@@ -320,22 +323,29 @@ li {
 .icons {
   position: absolute;
   bottom: 5%;
-  left: 10%;
-  color: #fff;
+  left: 10%;   
 }
 
-.icons span:not(:last-child) {
-  margin-right: 1rem;
+.icons a:not(:last-child) {
+  margin-right: 2rem;
 }
 
-.icons span {
+.icons a {
   font-size: 2rem;
   cursor: pointer;
   transition: all 300ms ease-in-out;
 }
 
-.icons span:hover {
+.icons a .fab,
+.icons a .fas {
+  font-size: 2.5rem;
+  color: #fff; 
+}
+
+.icons a .fab:hover,
+.icons a .fas:hover {
   color: var(--customColor);
+  transition: 0.5s;
 }
 
 @media only screen and (max-width: 567px) {
@@ -408,11 +418,11 @@ li {
 }
 
 .control .colors span:nth-child(1) {
-  background-color: var(--blue);
+  background-color: var(--orange);
 }
 
 .control .colors span:nth-child(2) {
-  background-color: var(--orange);
+  background-color: var(--blue);
 }
 
 .control .colors span:nth-child(3) {
@@ -420,7 +430,7 @@ li {
 }
 
 .control .colors span:nth-child(4) {
-  background-color: var(--cyan);
+  background-color: var(--red);
 }
 
 /* About */
@@ -736,20 +746,24 @@ a.btn:active {
   margin-bottom: 2rem;
 }
 
-.left div {
+.left .social {
   display: flex;
-  align-items: center;
+  align-items: center;  
   margin-bottom: 1.5rem;
 }
 
-.left div .content {
-  text-align: left;
+.left .social a {  
+  margin-left: 2rem;
+  color: #111;  
 }
 
-.left .icon {
-  margin-right: 2rem;
+.left .icon {  
   font-size: 2.3rem;
-  color: var(--customColor);
+  color: var(--customColor);  
+}
+
+.left .social a:hover {
+  font-weight: 500;
 }
 
 .form h2 {

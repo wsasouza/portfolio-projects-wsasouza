@@ -42,7 +42,7 @@ widget.addEventListener("click", () => {
 });
 
 const colors = [...document.querySelectorAll(".colors span")];
-document.querySelector(":root").style.setProperty("--customColor", "#0044FF");
+document.querySelector(":root").style.setProperty("--customColor", "#FF4600");
 
 colors.forEach((color) => {
   color.addEventListener("click", () => {
