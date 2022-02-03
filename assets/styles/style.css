@@ -1,9 +1,9 @@
 :root {
-  --customColor: #FF4600;  
-  --orange: #FF4600;
-  --blue: #4169E1;
-  --purple: #8A2BE2;
-  --red: #FF0000;
+  --customColor: #ff4600;
+  --orange: #ff4600;
+  --blue: #4169e1;
+  --purple: #8a2be2;
+  --red: #ff0000;
 }
 
 *,
@@ -55,7 +55,6 @@ li {
 }
 
 @media only screen and (max-width: 1200px) {
-
   .container {
     padding: 0 3rem;
   }
@@ -79,8 +78,8 @@ li {
   bottom: 0;
   width: 100rem;
   border-radius: 0.7rem;
-  filter: blur(1px);  
-  z-index: -1; 
+  filter: blur(1px);
+  z-index: -1;
 }
 
 @media only screen and (max-width: 996px) {
@@ -118,7 +117,7 @@ li {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--customColor);  
+  background-color: var(--customColor);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: 2s;
   z-index: 999;
@@ -139,7 +138,7 @@ li {
   color: #fff;
 }
 
-.logo h1 span {  
+.logo h1 span {
   color: var(--customColor);
 }
 
@@ -161,7 +160,7 @@ li {
 
 .nav-link:hover {
   border-radius: 0.7rem;
-  background-color: var(--customColor);  
+  background-color: var(--customColor);
 }
 
 .top-nav {
@@ -248,10 +247,10 @@ li {
 
 /* Hero */
 .hero {
-  position: absolute;  
+  position: absolute;
   top: 50%;
   transform: translate(30%, -50%);
-  color: #fff;  
+  color: #fff;
 }
 
 .hero h3 {
@@ -264,7 +263,7 @@ li {
   font-size: 3.5rem;
 }
 
-.hero h4 {  
+.hero h4 {
   font-size: 3.5rem;
 }
 
@@ -323,7 +322,7 @@ li {
 .icons {
   position: absolute;
   bottom: 5%;
-  left: 10%;   
+  left: 10%;
 }
 
 .icons a:not(:last-child) {
@@ -339,7 +338,7 @@ li {
 .icons a .fab,
 .icons a .fas {
   font-size: 2.5rem;
-  color: #fff; 
+  color: #fff;
 }
 
 .icons a .fab:hover,
@@ -353,7 +352,6 @@ li {
     display: none;
   }
 }
-
 
 /* Color Controls */
 
@@ -383,9 +381,9 @@ li {
   position: absolute;
   left: -3.4rem;
   border-radius: 1rem 0 0 1rem;
-  padding: .5rem .7rem;
-  margin-right: .1rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, .4);
+  padding: 0.5rem 0.7rem;
+  margin-right: 0.1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
   cursor: pointer;
   background-color: #fff;
   text-align: center;
@@ -399,22 +397,22 @@ li {
 
 .control .colors {
   background-color: #fff;
-  padding: 1rem .8rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  padding: 1rem 0.8rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .control .colors span {
   display: block;
   width: 1.9rem;
   height: 1.9rem;
-  padding: .7rem;
+  padding: 0.7rem;
   border-radius: 50%;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 
 .control .colors span:not(:last-child) {
-  margin-bottom: .7rem;
+  margin-bottom: 0.7rem;
 }
 
 .control .colors span:nth-child(1) {
@@ -683,7 +681,7 @@ a.btn:active {
   }
 }
 
-/* Teams */
+/* Projects */
 .team {
   color: #fff;
   background-color: #111;
@@ -748,22 +746,26 @@ a.btn:active {
 
 .left .social {
   display: flex;
-  align-items: center;  
+  align-items: center;
   margin-bottom: 1.5rem;
 }
 
-.left .social a {  
-  margin-left: 2rem;
-  color: #111;  
+.left .social a {
+  margin-left: 1rem;
+  color: #111;
+  transition: 0.5s;
 }
 
-.left .icon {  
-  font-size: 2.3rem;
-  color: var(--customColor);  
+.left .icon {
+  display: inline-block;
+  width: 3rem;
+  font-size: 2rem;
+  color: var(--customColor);
 }
 
 .left .social a:hover {
   font-weight: 500;
+  color: var(--customColor);
 }
 
 .form h2 {
@@ -829,6 +831,3 @@ footer p {
 footer p span {
   color: var(--customColor);
 }
-
-
-
