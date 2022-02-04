@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -14,13 +14,13 @@
   --color-text-title-left: #fff;
   --color-text-left: #ffe9cc;
 
-  --color-accent: #ff9100;
+  --color-accent: #ff4600;
   --color-aux-left: #211b14;
   --color-aux-right: #e7d6c4;
 
   --color-bg-right: #fff;
   --color-text-title-right: #090908;
-  --color-text-subtitle-right: #897d6d; 
+  --color-text-subtitle-right: #897d6d;
   --color-text-right: #282623;
 }
 
@@ -43,15 +43,15 @@ body {
   margin-top: 0.7rem;
   background: var(--color-accent);
   color: var(--color-text-title-right);
-  border-radius: 0.5rem;  
-  box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+  border-radius: 0.5rem;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
   transition: all 300ms ease-in-out;
   text-decoration: none;
   transition: 0.5s;
 }
 
 .main_website .fa {
-  font-size: 1.2em;  
+  font-size: 1.2em;
 }
 
 .main_website span {
@@ -70,11 +70,11 @@ body {
   max-width: 1000px;
   min-height: 1000px;
   background: var(--color-bg-right);
-  margin: 50px; 
+  margin: 50px;
 
   display: grid;
   grid-template-columns: 1fr 2fr;
-  box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 
 /* Left Side */
@@ -171,7 +171,7 @@ body {
 }
 
 .contact_info ul li a:hover {
-  opacity: 0.6;  
+  opacity: 0.6;
 }
 
 .contact_info.education li {
@@ -189,7 +189,7 @@ body {
 }
 
 .contact_info.education h4 {
-  color: var(--color-text-left);  
+  color: var(--color-text-left);
   font-weight: 300;
 }
 
@@ -311,36 +311,30 @@ p {
 
 /* Responsive */
 @media (max-width: 1000px) {
-
   .container {
     margin: 10px;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .others ul {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 600px) {
-
   .about .box {
     flex-direction: column;
   }
 
-  .about .box .year_company {    
+  .about .box .year_company {
     margin-bottom: 5px;
   }
 
   .others ul {
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .skills .box {
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
-
-
-
-
