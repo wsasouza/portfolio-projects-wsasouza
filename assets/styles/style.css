@@ -684,9 +684,13 @@ button:active {
 }
 
 /* Projects */
-.team {
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   color: #fff;
   background-color: #111;
+  height: 45rem;
   padding: 3rem;
   text-align: center;
   border-radius: 1rem;
@@ -694,9 +698,9 @@ button:active {
   transition: all 300ms ease-in-out;
 }
 
-.team .img-cover {
+.projects .img-cover {
   overflow: hidden;
-  border-radius: 100%;
+  border-radius: 0.8rem;
   border: 4px solid var(--customColor);
   height: 13rem;
   width: 13rem;
@@ -704,30 +708,44 @@ button:active {
   transition: all 300ms ease-in-out;
 }
 
-.team .img-cover img {
+.projects .img-cover img {
   height: 100%;
   object-fit: cover;
 }
 
-.team h3 {
+.projects h3 {
   font-size: 1.6rem;
   margin: 1rem 0;
 }
 
-.team p {
+.projects p {
   font-size: 1.5rem;
   color: #ccc;
   width: 80%;
   margin: 0 auto 1rem auto;
 }
 
-.team:hover {
-  border-bottom: 4px solid #fff;
+.projects span {
+  color: var(--customColor);
+  font-size: 4rem;
+  transition: all 300ms ease-in-out;
+}
+
+.projects:hover {
+  border-bottom: 6px solid #fff;
   background-color: var(--customColor);
 }
 
-.team:hover .img-cover {
+.projects:hover .img-cover {
   border-color: #fff;
+}
+
+.projects:hover span {
+  color: #fff;
+}
+
+.projects:hover a:hover span {
+  color: #000;
 }
 
 /* Contact */
@@ -800,6 +818,11 @@ button:active {
   width: 100%;
   resize: vertical;
   margin-bottom: 3rem;
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid var(--customColor);
 }
 
 @media only screen and (max-width: 768px) {
