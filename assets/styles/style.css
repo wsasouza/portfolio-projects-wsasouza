@@ -778,7 +778,7 @@ button:active {
 
 .left .icon {
   display: inline-block;
-  width: 3rem;
+  width: 2.3rem;
   font-size: 2rem;
   color: var(--customColor);
 }
