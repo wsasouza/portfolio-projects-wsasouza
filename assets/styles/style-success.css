@@ -20,7 +20,7 @@ body {
   font-size: 1.6rem;
 }
 
-.message-sent {
+.message-container {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -28,7 +28,7 @@ body {
   justify-content: space-evenly;
 }
 
-.message-sent h1 {
+.message h1 {
   font-weight: 500;
   font-size: 3rem;
   display: inline-block;
@@ -36,7 +36,16 @@ body {
   z-index: 0;
 }
 
-.message-sent h1::after {
+.message span {
+  display: inline-block;
+  position: relative;
+  margin-left: 1rem;
+  z-index: 0;
+  font-size: 3rem;
+  color: #006400;
+}
+
+.message h1::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -48,8 +57,8 @@ body {
   z-index: 1;
 }
 
-.message-sent img {
-  height: 40rem;
+.message-container img {
+  max-height: 40rem;
   max-width: 45rem;
   border-radius: 0.7rem;
   object-fit: cover;
