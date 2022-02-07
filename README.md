@@ -10,16 +10,15 @@
 <h1 align="center">Portfólio</h1>
 
 <p align="center">
-<img alt="Github top language" src="https://img.shields.io/github/languages/top/wsasouza/portfolio-projects-wsasouza?color=56BEB8">
+<img alt="Github top language" src="https://img.shields.io/github/languages/top/wsasouza/portfolio-projects-wsasouza?color=FF4600">
 
-<img alt="Github language count" src="https://img.shields.io/github/languages/count/wsasouza/portfolio-projects-wsasouza?color=56BEB8">
+<img alt="Github language count" src="https://img.shields.io/github/languages/count/wsasouza/portfolio-projects-wsasouza?color=FF4600">
 
-<img alt="Repository size" src="https://img.shields.io/github/repo-size/wsasouza/portfolio-projects-wsasouza?color=56BEB8">
+<img alt="Repository size" src="https://img.shields.io/github/repo-size/wsasouza/portfolio-projects-wsasouza?color=FF4600">
 
-<img alt="License" src="https://img.shields.io/github/license/wsasouza/portfolio-projects-wsasouza?color=56BEB8">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wsasouza/portfolio-projects-wsasouza?color=FF4600">
 
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wsasouza/portfolio-projects-wsasouza?color=56BEB8">
-  </a>
+<img alt="License" src="https://img.shields.io/github/license/wsasouza/portfolio-projects-wsasouza?color=FF4600">
 
 </p>
 
