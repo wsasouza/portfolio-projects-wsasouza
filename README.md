@@ -38,7 +38,7 @@ portfolio-projects-wsasouza?color=56BEB8">
 
 ## :dart: About
 
-Minha
+Portfólio pessoal e cv.
 
 ## :sparkles: Features
 
