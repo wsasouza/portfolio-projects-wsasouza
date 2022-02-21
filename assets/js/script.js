@@ -65,7 +65,6 @@ links.map((link) => {
 
     const id = e.target.getAttribute("href").slice(1);
     const element = document.getElementById(id);
-    const fixNav = navBar.classList.contains("fix-nav");
     let position = element.offsetTop - navHeight;
 
     window.scrollTo({

@@ -601,66 +601,32 @@ button:active {
   margin-bottom: 2rem;
 }
 
-.skills-box h4 {
-  font-size: 1.8rem;
-  color: #888;
-  font-size: 500;
+.tech {
+  display: flex;
+  align-items: center;
 }
 
-.skills-box .skills-ilt {
-  width: 100%;
-  position: relative;
-  height: 0.4rem;
-  background-color: #ccc;
-  border-radius: 0.5rem;
+.skills-box .tech .icon {
+  display: inline-block;
+  width: 3.5rem;
+  font-size: 2.5rem;
+  color: var(--customColor);
+}
+
+.tech h4 {
+  font-size: 1.8rem;
+  color: #616161;
+  font-size: 500;
 }
 
 .skills-box .skills-bar {
   background-color: var(--customColor);
-  height: 0.4rem;
+  height: 0.2rem;
 }
 
-.skills-box .figma {
-  width: 60%;
-}
-
-.skills-box .html {
-  width: 85%;
-}
-
-.skills-box .css {
-  width: 80%;
-}
-
-.skills-box .javascript {
-  width: 55%;
-}
-
-.skills-box .git {
-  width: 70%;
-}
-
-.skills-box .nodejs {
-  width: 55%;
-}
-
-.skills-box .reactjs {
-  width: 60%;
-}
-
-.skills-box .react-native {
-  width: 60%;
-}
-
-.skills-box .vtex-io {
-  width: 20%;
-}
-
-.skills-box span {
-  position: absolute;
-  bottom: 10%;
-  right: 0;
-  font-size: 1.4rem;
+.skills-box .decorator {
+  margin-top: 0.5rem;
+  width: 100%;
 }
 
 .skills-center {
