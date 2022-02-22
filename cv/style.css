@@ -193,23 +193,6 @@ body {
   font-weight: 300;
 }
 
-.contact_info.language .percent {
-  position: relative;
-  width: 100%;
-  height: 6px;
-  background: var(--color-aux-left);
-  display: block;
-  margin-top: 5px;
-}
-
-.contact_info.language .percent div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background: var(--color-accent);
-}
-
 /* Right Side */
 .container .right_side {
   position: relative;
@@ -262,27 +245,58 @@ p {
 .skills .box {
   position: relative;
   width: 100%;
+}
 
-  display: grid;
-  grid-template-columns: 150px 1fr;
-  justify-content: center;
+.tech {
+  display: flex;
   align-items: center;
 }
 
-.skills .box h4 {
-  text-transform: uppercase;
-  color: var(--color-text-subtitle-right);
-  font-weight: 600;
+.skills-box .tech .icon {
+  display: inline-block;
+  width: 32px;
+  font-size: 24px;
+  color: var(--color-accent);
 }
 
-.skills .box .percent {
+.tech h4 {
+  font-size: 18px;
+  color: #616161;
+  font-weight: 400;
+}
+
+.skills-box .skills-bar {
+  background-color: var(--color-accent);
+  height: 2px;
+}
+
+.language {
   position: relative;
   width: 100%;
-  height: 10px;
-  background: var(--color-aux-right);
+  margin-bottom: 50px;
 }
 
-.skills .box .percent div {
+.language ul li {
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+}
+
+.language .text {
+  font-weight: 500;
+  color: var(--color-text-right);
+}
+
+.language .percent {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background: var(--color-text-right);
+  display: block;
+  margin-top: 5px;
+}
+
+.language .percent div {
   position: absolute;
   top: 0;
   left: 0;
@@ -302,7 +316,7 @@ p {
   margin: 10px 0;
 }
 
-.others ul li .fa {
+.others ul li span {
   color: var(--color-accent);
   font-size: 18px;
   width: 20px;
