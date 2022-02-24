@@ -484,6 +484,11 @@ li {
   color: #333;
 }
 
+.right p span {
+  font-weight: 600;
+  color: #000;
+}
+
 .right h1 span {
   color: var(--customColor);
 }
